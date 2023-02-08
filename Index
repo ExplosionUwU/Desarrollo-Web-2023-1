@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Bienvenidos</title>
+</head>
+<body>
+    <nav>
+        <button>Inicio</button>
+        <button>About Us</button>
+        <button>Contact</button>
+    </nav>
+    <section>
+        <h1>Duren</h1>
+        <p>Duren</p>
+        <section>
+            <img src="" alt="gato XD">
+        </section>
+        <h2>XD</h2>
+    </section>
+
+    <section>
+        <img src="" alt="no aprende">
+        <section>
+            <img src="" alt="gritito">
+            <section>
+                <img src="" alt="lloron">
+            </section>
+        </section>
+    </section>
+
+    <footer>
+        <h1>Copyright@ de YO</h1>
+        <h2>Ojala lo copie perro</h2>
+    </footer>
+
+</body>
+</html>
