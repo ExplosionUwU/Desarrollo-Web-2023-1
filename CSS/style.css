@@ -5,7 +5,16 @@
 }
 
 body{
-    background-color: black;
+    background-size: cover;
+}
+
+.fondoColor{
+    position: relative;
+    width: 50%; /* Cambia el valor de "50%" por la mitad del ancho que desees */
+    margin: 0 auto;
+    background-color: #fff; /* Cambia #fff por el color que desees */
+    padding: 20px; /* Ajusta el valor de "20px" según el espacio que quieras entre el borde del cuadro y el contenido */
+    box-sizing: border-box;
 }
 
 nav{
