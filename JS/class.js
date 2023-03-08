@@ -1,26 +1,40 @@
+let f = (Number) => {return Number+5;}
+console.log(f(5));
 
+const esPar = (numero) =>{
+    return numero%2 == 0;
+}
 
-//flecha sin parametros
-const saludar = () => {
-    return console.log("Hola, ¿cómo estás?");
-};
-saludar();
+const validarParidad = (num,callbackFn) => {
+    const esPar = callbackFn(num);
+    console.log("El numero es entero? : " +esPar);
+}
+validarParidad(8,esPar)
 
-//flecha 1 parametro
-const doble = numero => {
-    return numero * 2;
-};
-console.log(doble(5));
+const dividePorDos = (numero)=>{return numero / 2;}
 
-//flecha 2 parametros
-const double = (a, b) => {
-    return a + b;
-};
-console.log(double(1,2));
+const divideNumero = (numero, callbackFn)=>{
+    return callbackFn(numero);
+}
 
-//arreglo
-let numeros = [1,2,3,4,5,6];
-//ingresa un numero adicional
-numeros.push(10);
-//saca el ultimo elemento
-numeros.pop();
+console.log(divideNumero(10,dividePorDos));
+
+//arreglos
+const numeros = [1,2,3,20,893,452];
+let numerosDos = [11,2,3,20,893,452];
+
+const sumarValores = numeros.reduce((acumulador, valorActual) => {
+   return acumulador+valorActual; 
+});
+
+console.log(sumarValores);
+
+const fnDos = numerosDos.forEach(Number =>{
+    console.log(Number);
+});
+
+const fnTres = numerosDos.filter(Number => {
+    return Number>10;
+});
+
+console.log(fnTres);
