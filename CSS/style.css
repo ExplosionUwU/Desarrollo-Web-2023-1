@@ -50,7 +50,7 @@ nav li{
     cursor: pointer;
 }
 
-nav li:hover{
+nav > li:hover{
     text-shadow: 2px 4px rgb(68, 61, 61);
     transition: 0.2s
 }
